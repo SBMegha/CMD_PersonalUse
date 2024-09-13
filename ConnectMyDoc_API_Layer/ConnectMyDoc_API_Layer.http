@@ -1,0 +1,6 @@
+@ConnectMyDoc_API_Layer_HostAddress = http://localhost:5250
+
+GET {{ConnectMyDoc_API_Layer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

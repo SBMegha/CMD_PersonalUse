@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ExceptionMessages>
+	<!-- Null Checks -->
+	<Message key="NullPatientDTO">Patient details cannot be null.</Message>
+
+	<!-- Required Fields -->
+	<Message key="InvalidPatientName">Patient Name is required.</Message>
+	<Message key="InvalidEmail">Email is required.</Message>
+	<Message key="InvalidPhone">Phone number is required.</Message>
+	<Message key="InvalidCreatedBy">CreatedBy must be a valid user ID.</Message>
+	<Message key="InvalidLastModifiedBy">LastModifiedBy must be a valid user ID.</Message>
+	<Message key="InvalidStreetAddress">Street address is required.</Message>
+	<Message key="InvalidCity">City is required.</Message>
+	<Message key="InvalidState">State is required.</Message>
+	<Message key="InvalidCountry">Country is required.</Message>
+
+	<!-- Email Format -->
+	<Message key="InvalidEmailFormat">Invalid email format.</Message>
+
+	<!-- Phone Format -->
+	<Message key="InvalidPhoneFormat">Invalid phone number.</Message>
+
+	<!-- Image Validation -->
+	<Message key="ImageSizeExceeded">Image size exceeds the allowed limit.</Message>
+	<Message key="InvalidImageFormat">Invalid image format.</Message>
+	<Message key="DoctorNotFound">No doctor was found with the Id provided</Message>
+
+	<!-- Age and DOB Mismatch -->
+	<Message key="AgeDobMismatch">Age and Date of Birth do not match.</Message>
+	<Message key="MissingDobOrAge">Date of Birth and Age must be provided.</Message>
+
+	<!-- Preferred Time Range -->
+	<Message key="InvalidPreferredTimeRange">Preferred Start Time must be before Preferred End Time.</Message>
+
+	<!-- ZIP Code Validation -->
+	<Message key="InvalidZipCode">Invalid ZIP code format for the specified country.</Message>
+
+	<!-- Guardian Validation for Minors -->
+	<Message key="MissingGuardianName">Guardian Name is required for minors.</Message>
+	<Message key="MissingGuardianPhone">Guardian Phone number is required for minors.</Message>
+	<Message key="MissingGuardianRelationship">Guardian Relationship is required for minors.</Message>
+	
+	<!-- API errors-->
+	<Message key="UnexpectedApiResponse">Unexpected API response</Message>
+	<Message key="PatientAddressNotFound">Patient Address was not found</Message>
+	<Message key="AddressIdDoNotMatch">Patient Address was not matched</Message>
+	<Message key="PatientNotFound">Patient Was not found</Message>
+	<Message key="PatientGuardianNotFound">Patient guardian Was not found</Message>
+
+</ExceptionMessages>
